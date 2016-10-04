@@ -7,7 +7,7 @@
       (string/trim (:out (sh "git" "rev-parse" "HEAD")))
       ""))
 
-(defproject org.cyverse/event-messages "0.0.1-SNAPSHOT"
+(defproject org.cyverse/event-messages "0.0.1"
   :description "Code generated from the github.com/cyverse-de/proto-events project"
   :url "https://github.com/cyverse-de/java-events"
   :license {:name "BSD"
